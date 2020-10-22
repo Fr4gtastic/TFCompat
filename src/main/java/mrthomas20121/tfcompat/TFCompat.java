@@ -28,7 +28,8 @@ public class TFCompat
             + "after:mekanism;"
             + "after:improvedbackpacks;"
             + "after:thermalexpansion;"
-            + "after:thaumcraft;";
+            + "after:thaumcraft;"
+            + "after:horsepower;";
 
     private static Logger logger;
 	

@@ -5,6 +5,7 @@ import mrthomas20121.tfcompat.compat.actuallyadditions.ActuallyAdditionsModule;
 import mrthomas20121.tfcompat.compat.betterwithmods.BetterWithModsModule;
 import mrthomas20121.tfcompat.compat.ceramics.CeramicsModule;
 import mrthomas20121.tfcompat.compat.forestry.ForestryModule;
+import mrthomas20121.tfcompat.compat.horsepower.HorsePowerModule;
 import mrthomas20121.tfcompat.compat.improvedbackpacks.ImprovedBackpacksModule;
 import mrthomas20121.tfcompat.compat.mekanism.MekanismModule;
 import mrthomas20121.tfcompat.compat.pyrotech.PyrotechModule;
@@ -55,6 +56,7 @@ public class ModuleManager
         registerModule(new PyrotechModule());
         registerModule(new ThaumcraftModule());
         registerModule(new ThermalExpansionModule());
+        registerModule(new HorsePowerModule());
     }
 
     @SubscribeEvent
