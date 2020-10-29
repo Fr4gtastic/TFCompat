@@ -20,16 +20,14 @@ public class HorsePowerRecipes implements RecipeCore {
     }
 
     private void createChoppingBlockRecipes() {
-        for(Tree tree : TFCRegistries.TREES.getValuesCollection())
-        {
+        for(Tree tree : TFCRegistries.TREES.getValuesCollection()) {
             HPRecipes.instance()
-                    .addChoppingRecipe(BlockLogTFC.get(tree), new ItemStack(BlockPlanksTFC.get(tree)), 8, true);
+                    .addChoppingRecipe(BlockLogTFC.get(tree), new ItemStack(BlockPlanksTFC.get(tree), 2), 8, true);
         }
     }
 
     private void createGrindstoneRecipes() {
-        for(QuernRecipe recipe: TFCRegistries.QUERN.getValuesCollection())
-        {
+        for(QuernRecipe recipe: TFCRegistries.QUERN.getValuesCollection()) {
             ItemStack input = recipe.getIngredients()
                     .get(0)
                     .getValidIngredients()
